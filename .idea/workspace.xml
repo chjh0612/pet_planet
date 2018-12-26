@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e5fc42b-9a60-4002-831c-0158c2741d4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/databases.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/databases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcipt/taobao/goods.py" beforeDir="false" afterPath="$PROJECT_DIR$/srcipt/taobao/goods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcipt/taobao/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/srcipt/taobao/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcipt/taobao/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/srcipt/taobao/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcipt/taobao/shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/srcipt/taobao/shop.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,63 +20,69 @@
     <SUITE FILE_PATH="coverage/pet_planet$Flask__run_py_.coverage" NAME="Flask (run.py) Coverage Results" MODIFIED="1545729704383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/pet_planet$public.coverage" NAME="public Coverage Results" MODIFIED="1545729619065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/api/public" />
     <SUITE FILE_PATH="coverage/pet_planet$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1545729366589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/pet_planet$main.coverage" NAME="main Coverage Results" MODIFIED="1545738682697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/srcipt/taobao" />
+    <SUITE FILE_PATH="coverage/pet_planet$shop.coverage" NAME="shop Coverage Results" MODIFIED="1545803152926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/srcipt/taobao" />
+    <SUITE FILE_PATH="coverage/pet_planet$main.coverage" NAME="main Coverage Results" MODIFIED="1545815802907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/srcipt/taobao" />
     <SUITE FILE_PATH="coverage/pet_planet$run.coverage" NAME="run Coverage Results" MODIFIED="1545733467067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pet_planet$databases.coverage" NAME="databases Coverage Results" MODIFIED="1545741836613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" />
+    <SUITE FILE_PATH="coverage/pet_planet$databases.coverage" NAME="databases Coverage Results" MODIFIED="1545815791765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" />
     <SUITE FILE_PATH="coverage/pet_planet$goods.coverage" NAME="goods Coverage Results" MODIFIED="1545738896190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/srcipt/taobao" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2095641658">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="3" />
-          <entry key="py" value="49" />
-          <entry key="txt" value="3" />
+          <entry key="json" value="4" />
+          <entry key="py" value="59" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="49" />
+          <entry key="JSON" value="4" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Python Console" value="3" />
           <entry key="dummy" value="13" />
-          <entry key="py" value="1133" />
+          <entry key="py" value="2578" />
           <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="1133" />
+          <entry key="Python" value="2574" />
+          <entry key="SQL" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/srcipt/taobao/goods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="62" selection-end-column="39" />
+            <state relative-caret-position="420">
+              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
               <folding>
                 <element signature="e#147#169#0" expanded="true" />
+                <marker date="1545812309199" expanded="true" signature="222:225" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,39 +91,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/srcipt/taobao/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="75">
+              <caret line="26" selection-start-line="26" selection-end-line="33" selection-end-column="5" />
               <folding>
-                <element signature="e#146#200#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/databases.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-              <folding>
-                <element signature="e#64#104#0" expanded="true" />
-                <marker date="1545741600476" expanded="true" signature="253:254" ph="..." />
-                <marker date="1545741600476" expanded="true" signature="412:1030" ph="..." />
-                <marker date="1545741600476" expanded="true" signature="1067:1072" ph="..." />
-                <marker date="1545741600476" expanded="true" signature="1125:1130" ph="..." />
-                <marker date="1545741600476" expanded="true" signature="1174:1179" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-              <folding>
-                <element signature="e#64#117#0" expanded="true" />
+                <element signature="e#230#260#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,8 +103,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/srcipt/taobao/pidanlinks.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="57">
+              <caret line="3" column="105" lean-forward="true" selection-start-line="3" selection-start-column="105" selection-end-line="3" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirement.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="e#64#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/databases.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="46" />
+              <folding>
+                <element signature="e#64#112#0" expanded="true" />
+                <marker date="1545815643667" expanded="true" signature="1539:1611" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,10 +146,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/srcipt/taobao/service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="255">
+              <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
               <folding>
                 <element signature="e#149#158#0" expanded="true" />
+                <marker date="1545814767434" expanded="true" signature="2290:2293" ph="..." />
               </folding>
             </state>
           </provider>
@@ -141,10 +159,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/srcipt/taobao/shop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="589">
+              <caret line="32" selection-start-line="32" selection-end-line="42" selection-end-column="21" />
               <folding>
-                <element signature="e#146#175#0" expanded="true" />
+                <element signature="e#146#172#0" expanded="true" />
+                <marker date="1545806144988" expanded="true" signature="443:615" ph="..." />
               </folding>
             </state>
           </provider>
@@ -182,12 +201,14 @@
         <option value="$PROJECT_DIR$/app/srcipt/taobao/main.py" />
         <option value="$PROJECT_DIR$/srcipt/__init__.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/srcipt/taobao/service.py" />
-        <option value="$PROJECT_DIR$/srcipt/taobao/goods.py" />
-        <option value="$PROJECT_DIR$/srcipt/taobao/main.py" />
         <option value="$PROJECT_DIR$/app/models/_init_.py" />
-        <option value="$PROJECT_DIR$/app/models/databases.py" />
+        <option value="$PROJECT_DIR$/../../SpaceBox/Wecash_API_SpaceBox/MyLibrary.py" />
         <option value="$PROJECT_DIR$/app/models/__init__.py" />
+        <option value="$PROJECT_DIR$/srcipt/taobao/shop.py" />
+        <option value="$PROJECT_DIR$/srcipt/taobao/goods.py" />
+        <option value="$PROJECT_DIR$/srcipt/taobao/service.py" />
+        <option value="$PROJECT_DIR$/app/models/databases.py" />
+        <option value="$PROJECT_DIR$/srcipt/taobao/main.py" />
       </list>
     </option>
   </component>
@@ -231,6 +252,12 @@
               <item name="pet_planet" type="462c0819:PsiDirectoryNode" />
               <item name="srcipt" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pet_planet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet_planet" type="462c0819:PsiDirectoryNode" />
+              <item name="srcipt" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -240,7 +267,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="E:/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -268,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.databases">
+  <component name="RunManager" selected="Python.main">
     <configuration name="databases" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pet_planet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -357,19 +384,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (run.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+    <configuration name="shop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pet_planet" />
-      <option name="target" value="$PROJECT_DIR$/run.py" />
-      <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/srcipt/taobao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/srcipt/taobao/shop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="pet_planet" type="Python.FlaskServer" factoryName="Flask server">
@@ -389,19 +423,19 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.pet_planet" />
-      <item itemvalue="Flask server.Flask (run.py)" />
       <item itemvalue="Python.run" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.goods" />
       <item itemvalue="Python.databases" />
+      <item itemvalue="Python.shop" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.databases" />
-        <item itemvalue="Python.goods" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.databases" />
+        <item itemvalue="Python.shop" />
+        <item itemvalue="Python.goods" />
         <item itemvalue="Python.run" />
-        <item itemvalue="Flask server.Flask (run.py)" />
       </list>
     </recent_temporary>
   </component>
@@ -430,12 +464,12 @@
     <frame x="-4" y="-4" width="1374" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21417798" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18099548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924585" weight="0.3525641" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984917" visible="true" weight="0.44070512" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,7 +477,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32852563" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007542" side_tool="true" weight="0.32852563" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015083" side_tool="true" weight="0.3525641" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32852563" />
       <window_info anchor="bottom" x="17" y="488" width="1326" height="205" id="Terminal" order="12" weight="0.32852563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -547,9 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#64#87#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirement.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/srcipt/__init__.py" />
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -596,75 +620,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/srcipt/taobao/goods.py">
+    <entry file="file://$PROJECT_DIR$/../../SpaceBox/Wecash_API_SpaceBox/MyLibrary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="62" selection-end-column="39" />
-          <folding>
-            <element signature="e#147#169#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-440">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/srcipt/taobao/pidanlinks.json">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/genericpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="146">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/bs4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="575" column="6" selection-start-line="575" selection-start-column="6" selection-end-line="575" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/venv2.7/Scripts/ride.py" />
+    <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2831">
+          <caret line="153" column="8" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/srcipt/taobao/shop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="589">
+          <caret line="32" selection-start-line="32" selection-end-line="42" selection-end-column="21" />
           <folding>
-            <element signature="e#146#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/srcipt/taobao/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#149#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/srcipt/taobao/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#146#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/databases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="e#64#104#0" expanded="true" />
-            <marker date="1545741600476" expanded="true" signature="253:254" ph="..." />
-            <marker date="1545741600476" expanded="true" signature="412:1030" ph="..." />
-            <marker date="1545741600476" expanded="true" signature="1067:1072" ph="..." />
-            <marker date="1545741600476" expanded="true" signature="1125:1130" ph="..." />
-            <marker date="1545741600476" expanded="true" signature="1174:1179" ph="..." />
+            <element signature="e#146#172#0" expanded="true" />
+            <marker date="1545806144988" expanded="true" signature="443:615" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="e#64#117#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/srcipt/taobao/goods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <element signature="e#147#169#0" expanded="true" />
+            <marker date="1545812309199" expanded="true" signature="222:225" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/srcipt/taobao/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+          <folding>
+            <element signature="e#149#158#0" expanded="true" />
+            <marker date="1545814767434" expanded="true" signature="2290:2293" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/databases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="46" />
+          <folding>
+            <element signature="e#64#112#0" expanded="true" />
+            <marker date="1545815643667" expanded="true" signature="1539:1611" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/srcipt/taobao/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="26" selection-start-line="26" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#230#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python2.7/Scripts/ride.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/srcipt/taobao/pidanlinks.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="105" lean-forward="true" selection-start-line="3" selection-start-column="105" selection-end-line="3" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

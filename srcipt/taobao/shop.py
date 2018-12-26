@@ -5,7 +5,7 @@
 # @File    : shop.py
 # @Software: PyCharm
 
-from bs4 import BeautifulSoup
+from .service import soups
 import time
 
 class Shop():
@@ -13,29 +13,33 @@ class Shop():
         self.url = url
         self.browser = browser
 
-    def good_page_source(self, url):
-        self.browser.get(url)
-        page_source = self.browser.page_source
+    def good_page_source(self):
+        items = self.browser.find_element_by_class_name('items')
+        return items.get_attribute('outerHTML')
 
-        return page_source
+    def page_has_goods(self):
+        try:
+            self.browser.find_element_by_class_name('items')
+            return True
+        except :
+            return False
+
 
     def good_links(self):
-        print('+++开始获取商品链接')
         goods_link = {}
-        for i in range(1, 10):
-            new_url = self.url + '&pageNo={}'.format(i)
-            page = self.good_page_source(new_url)
-            if '没找到符合条件的商品,换个条件或关键词试试吧' in page:
-                print('+++商品链接获取完毕')
-                break
-            else:
-                soup = BeautifulSoup(page, features="html.parser")
+        page_no = 1
+        while True:
+            new_url = self.url + '&pageNo={}'.format(page_no)
+            self.browser.get(new_url)
+            if self.page_has_goods():
+                items_DOM = self.good_page_source()
+                soup = soups(items_DOM)
                 items = soup.select('.items li a')
                 for good in items:
                     goods_link[good['href']] = good.get_text().strip()
-                print('+++第{}页获取完毕'.format(i))
-            time.sleep(5)
-
+                page_no += 1
+                time.sleep(5)
+            else:
+                break
         return goods_link
-
 

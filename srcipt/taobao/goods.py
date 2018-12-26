@@ -6,50 +6,33 @@
 # @Software: PyCharm
 
 from .service import *
-import time
+from time import sleep
 from bs4 import BeautifulSoup
+
 
 class Good():
     def __init__(self, product_link, product_name, browser):
         self.product_link = product_link
         self.product_name = product_name
         self.pause_time = 10
-        # self.chrome_opt = webdriver.ChromeOptions()
-        # #self.chrome_opt.add_argument("--headless")
-        # self.driver = webdriver.Chrome(chrome_options = self.chrome_opt)
         self.driver = browser
-        self.content_img_div_class = 'content'
-        self.product_img_div_id = 'J_UlThumb'
         self.driver.get(self.product_link)
-        close_button = self.driver.find_element_by_id('sufei-dialog-close')
-        close_button.click()
-        time.sleep(self.pause_time)
-        self.product_page_html = self.driver.page_source.encode('utf-8')
-        self.soup = BeautifulSoup(self.product_page_html, 'html.parser')
-
-    def get_img_link(self, **params):
-        img_container = self.soup.find(**params)
-        all_img_node = img_container.find_all('img')
-        img_link = []
-        for each_img_node in all_img_node:
-            link = ''
-            if 'data-ks-lazyload' in each_img_node:
-                link = each_img_node.get('data-ks-lazyload')
-            else:
-                link = each_img_node.get('src')
-            if 'https:' not in link:
-                link = 'https:{}'.format(link)
-            img_link.append(link)
-
-        return img_link
+        try:
+            close_button = self.driver.find_element_by_id('sufei-dialog-close')
+            close_button.click()
+        except:
+            print('++++++没有弹框！')
+        sleep(self.pause_time)
+        self.product_page_html = self.driver.page_source
+        self.soup = soups(self.product_page_html)
 
     def get_content_img_link(self):
-        img_link = self.get_img_link(class_ = self.content_img_div_class)
+        img_link = get_img_link(self.soup, class_ = Config.deitail_picture_class)
 
         return img_link
 
-    def get_product_img_link(self):
-        img_link = cut_product_img_link(self.get_img_link(id = self.product_img_div_id))
+    def get_cover_img_link(self):
+        img_link = cut_product_img_link(get_img_link(self.soup, id = Config.cover_picture_id))
 
         return img_link
 
@@ -100,6 +83,3 @@ class Good():
                 print('『视频』：+++视频保存成功！\n')
             except:
                 print('『视频』：---视频保存失败！\n')
-
-if __name__ == '__main__':
-    cut_product_img_link('//img.alicdn.com/imgextra11111')

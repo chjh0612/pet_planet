@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-engine = create_engine("mysql+pymysql://root:123456@localhost:3306/spacebox_test", max_overflow=5, encoding='utf-8')
+engine = create_engine("mysql+pymysql://root:123456@localhost:3306/pet_planet", max_overflow=5, encoding='utf-8')
 Session = sessionmaker(bind=engine)
 Base = declarative_base()
 
