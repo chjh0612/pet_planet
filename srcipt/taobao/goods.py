@@ -83,3 +83,13 @@ class Good():
                 print('『视频』：+++视频保存成功！\n')
             except:
                 print('『视频』：---视频保存失败！\n')
+
+    def details(self):
+        detail_container = self.soup.select('#J_AttrUL li')
+        deitails = []
+        if len(detail_container):
+            for li in detail_container:
+                detail = li.text
+                deitails.append(detail)
+
+        return deitails
